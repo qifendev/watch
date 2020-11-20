@@ -3,7 +3,7 @@
 ![效果图片](imgaes/show.png)
 
 ## 使用
-```grovy
+```groovy
 implementation 'site.qifen.watchview:watchview:1.0.0'
 ```
 
