@@ -1,0 +1,3 @@
+include ':watchview'
+include ':app'
+rootProject.name = "watch"

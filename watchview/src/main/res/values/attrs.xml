@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WatchesView">
+        <!--指针长度-->
+        <attr name="hoursLength" format="dimension" />
+        <attr name="minutesLength" format="dimension" />
+        <attr name="secondsLength" format="dimension" />
+
+        <!--刻度粗度-->
+        <attr name="hoursScaleDegree" format="dimension" />
+        <attr name="minutesScaleDegree" format="dimension" />
+
+        <!--刻度长度-->
+        <attr name="hoursScaleLength" format="dimension" />
+        <attr name="minutesScaleLength" format="dimension" />
+
+        <!--指针粗度-->
+        <attr name="hoursDegree" format="dimension" />
+        <attr name="minutesDegree" format="dimension" />
+        <attr name="secondsDegree" format="dimension" />
+
+        <!--表盘小时数字高度-->
+        <attr name="hoursNumberHeight" format="dimension" />
+
+        <!--小时字符显示大小-->
+        <attr name="hourNumberSize" format="dimension" />
+
+        <!--中心点大小-->
+        <attr name="centerPoint" format="dimension" />
+
+
+        <!--表盘颜色-->
+        <attr name="dialColor" format="color" />
+
+        <!--小时标记的颜色-->
+        <attr name="hoursCaliColor" format="color" />
+
+        <!--分钟标记的颜色-->
+        <attr name="minutesCaliColor" format="color" />
+
+        <!--分钟标记的颜色-->
+        <attr name="hourFontColor" format="color" />
+
+        <!--表盘中间圆点颜色-->
+        <attr name="centerCircleColor" format="color" />
+
+        <!--小时指针颜色-->
+        <attr name="hoursPointerColor" format="color" />
+
+        <!--分钟指针颜色-->
+        <attr name="minutesPointerColor" format="color" />
+
+        <!--秒针指针颜色-->
+        <attr name="secondsPointerColor" format="color" />
+
+        <!--表盘的图片颜色-->
+        <attr name="dialImageBitmap" format="reference" />
+
+
+        <!--运行时是否根据时间转-->
+        <attr name="run" format="boolean" />
+
+
+    </declare-styleable>
+</resources>
