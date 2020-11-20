@@ -18,14 +18,14 @@ apply plugin: 'com.novoda.bintray-release'
 
 publish {
     userOrg = 'qifendev'
-    groupId = 'site.qifen.watch'
-    artifactId = 'WatchView'
+    groupId = 'site.qifen.watchview'
+    artifactId = 'watchview'
     publishVersion = '1.0.0'
-    repoName = "WatchView"
+    repoName = 'watchview'
     desc = 'Android WatchView'
     website = 'https://github.com/qifendev/watch'
 }
-
+//implementation 'site.qifen.watchview:watchview:1.0.0'
 //build后在项目根目录执行： ./gradlew clean build bintrayUpload -PbintrayUser=name -PbintrayKey=key -PdryRun=false
 
 
@@ -42,6 +42,18 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
+
+
+    //可能需要
+    signingConfigs {
+        config {
+            storeFile file('~/Desktop/qifen.jks')
+            storePassword 'ljl123123'
+            keyAlias = 'qifen'
+            keyPassword 'ljl123123'
+        }
+    }
+
 
     buildTypes {
         release {
