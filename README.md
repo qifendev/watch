@@ -4,7 +4,7 @@
 
 ## 使用
 ```grovy
-implementation 'site.qifen.watchview:WatchView:1.0.0'
+implementation 'site.qifen.watchview:watchview:1.0.0'
 ```
 
 
