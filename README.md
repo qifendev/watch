@@ -2,6 +2,12 @@
 ## 效果图片
 ![效果图片](imgaes/show.png)
 
+## 使用
+```grovy
+implementation 'site.qifen.watchview:watchview:1.0.0'
+```
+
+
 ## Xml中自定义的属性（java对应也可以）
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
