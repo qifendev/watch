@@ -65,10 +65,6 @@ implementation 'site.qifen.watchview:watchview:1.0.0'
         <!--秒针指针颜色-->
         <attr name="secondsPointerColor" format="color" />
 
-        <!--表盘的图片颜色-->
-        <attr name="dialImageBitmap" format="reference" />
-
-
         <!--运行时是否根据时间转-->
         <attr name="run" format="boolean" />
 
